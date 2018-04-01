@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>SIN_TITULO</TITLE>
+	</HEAD>
+	<BODY onload="sin_titulo();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20160506-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function sin_titulo() {
+				var a, b, c, d, p, r;
+				a = 0;
+				b = 0;
+				a = Number(prompt());
+				b = Number(prompt());
+				r = (a+b)/2;
+				document.write("El promedio del 1º es:",'<BR/>');
+				document.write(r,'<BR/>');
+				c = 0;
+				d = 0;
+				c = Number(prompt());
+				d = Number(prompt());
+				p = (c+d)/2;
+				document.write("El promedio del 2º es: ",'<BR/>');
+				document.write(p,'<BR/>');
+				if (r==p) {
+					document.write("Los dos promedios son iguales",'<BR/>');
+				} else {
+					if (r<p) {
+						document.write("El mejor promedio es: ",'<BR/>');
+						document.write(p,'<BR/>');
+					} else {
+						document.write("El mejor promedio es ",'<BR/>');
+						document.write(r,'<BR/>');
+					}
+				}
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>

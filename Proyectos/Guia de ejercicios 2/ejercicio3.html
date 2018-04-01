@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 3</title>
+	</head>
+	<body>
+		<h1>Ejercicio 3</h1>
+		<script>
+			function caracter_repetido (caracter) {
+				var cadena = "Hola como estas"
+				var cont = 0;
+
+				for (var i = 0; i < cadena.length; i++) {
+					if (cadena[i] == caracter) {
+						cont++
+					}
+				}
+				return cont;
+			}
+
+			console.log(caracter_repetido("o"))
+		</script>
+	</body>
+</html>

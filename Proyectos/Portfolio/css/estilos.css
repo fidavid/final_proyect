@@ -1,0 +1,259 @@
+/*
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	*/	
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor {
+	width: 600px;
+	margin: auto;
+
+}
+
+/* Estilos de css */
+
+nav {
+	background: rgb(44,62,80);
+	padding: 10px 0;
+
+}
+
+nav p {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+/* Empieza el header */
+
+header {
+	background: rgb(24,188,156);
+	text-align: center;
+	padding: 50px 0;
+}
+
+header img {
+	border-radius: 50%
+}
+
+h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 30px;
+	margin: 15px 0;
+}
+
+.estrella-blanca {
+	color: white;
+}
+
+header p {
+	color: white;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+section {
+	padding: 50px 0;
+}
+
+/* Estilos de Portfolio */
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(51,51,51);
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.estrella {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.galeria {
+	margin-top: 30px;
+}
+
+.galeria li {
+	display: inline-block;
+	width: 32%;
+	margin: 10px 10px 10px 0;
+}
+
+.galeria li:nth-child(3),
+.galeria li:last-child {
+	margin-right: 0;
+}
+
+.galeria li img {
+	width: 100%
+}
+
+/* Estilos del about */
+
+.about {
+	background: rgb(24,188,156);
+}
+
+.about h2,
+.about p,
+.about a {
+	color: white;
+}
+
+.about p {
+	display: inline-block;
+	width: 45%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+
+.btn {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.btn a {
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px 25px;
+}
+
+/* Estilos de formulario */
+
+.contenedorDos {
+	width: 80%;
+	margin: auto;
+}
+
+.margen {
+	margin-top: 30px;
+}
+
+form input,
+form textarea {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgb(238,238,238);
+	resize: none;
+	font-family: "Montserrat";
+	outline: none;
+	padding: 10px 5px;
+	font-size: 12px;
+}
+
+.primero {
+	border-top: 1px solid rgb(238,238,238);
+}
+
+.enviar {
+	width: auto;
+	border: none;
+	background: rgb(24,188,156);
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+/* Estilos de footer */
+
+footer {
+	background: rgb(44,62,80);
+	color: white;
+	text-align: center;
+}
+
+.copy {
+	background: rgb(35,49,64);
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+}
+
+footer aside h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+footer aside {
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 25px;
+}
+
+footer aside ul li {
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 9px 15px;
+	margin-right: 3px;
+}
+
+footer aside ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+footer aside p {
+	font-size: 14px;
+}
+
+
+/* Lineas de las estrellas  */
+
+.estrella-blanca:before,
+.estrella-blanca:after {
+	content: "";
+	display: inline-block;
+	width: 50px;
+	height: 3px;
+	background: white;
+	margin-bottom: 3px;
+}
+
+.estrella-oscura:before,
+.estrella-oscura:after {
+	content: "";
+	display: inline-block;
+	width: 50px;
+	height: 3px;
+	background: black;
+	margin-bottom: 3px;
+}
+
+/* Estilos de footer */

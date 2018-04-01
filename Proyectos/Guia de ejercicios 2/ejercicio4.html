@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 4</title>
+	</head>
+	<body>
+		<h1>Ejercicio 4</h1>
+		<script>
+			function palíndromo (palabra) {
+				var alreves = "";
+				var cont = 0;
+
+				for (var i = palabra.length - 1; i >= 0; i--) {
+					alreves = alreves + palabra[i];
+				}
+
+				if (palabra == alreves) {
+					alert("La palabra ingresada es un palíndromo.")
+				} else {
+					alert("La palabra propuesta no es un palíndromo.")
+				}
+			}
+
+			palíndromo(prompt("Ingrese una palabra:"))
+		</script>
+	</body>
+</html>

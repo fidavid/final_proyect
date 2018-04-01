@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bubbler One', sans-serif;
+}
+
+body {
+	background: #FFD600;	
+}
+
+.logo {
+	width: 25%;
+}
+
+header h1 {
+	text-align: center;
+}
+
+header ul {
+	list-style: none;
+	text-align: center;
+	margin: 20px;
+	font-size: 20px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0 20px;
+	font-size: 30px;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+header img {
+	width: 100%;
+}
+
+header, section {
+	padding:  50px 100px 0px 100px;
+}
+
+/* Estilos del section */
+
+section div h2 {
+	font-size: 50px;
+	text-align: center;
+	margin: 30px;
+}
+
+.historia {
+	width: 40%;
+	float: right;
+	margin-left: 10px;
+}
+
+section div p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.per div div {
+	width: 40%;
+	height: 700px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.uno, .tres, .cinco, .siete {
+	float: left;
+	margin-right: 161px;
+}
+
+.per div div h3 {
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.per div div img {
+	width: 100%;
+}
+
+/* Estilos de footer */
+
+footer {
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+
+.info {
+	background: #333333;
+}
+
+.copy {
+	background: #222222;
+	color: rgb(229, 242, 242);
+	padding: 10px;
+}
+
+footer div ul li a {
+	color: rgb(229, 242, 242);
+	text-decoration: none;
+}
+
+footer div ul {
+	padding: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+	header img {
+		display: none;
+	}
+
+	header ul {
+		margin: 20px 0 0;
+	}
+
+	header ul li {
+		font-size: 20px;
+	}
+
+	header h1 {
+		font-size: 30px;
+	}
+
+	header {
+		padding: 20px 40px 0px;
+	}
+
+	section {
+		padding: 0px 40px 20px;
+	}
+
+	.historia {
+		float: initial;
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	section div h2 {
+		font-size: 30px;
+	}
+
+	section div p {
+		font-size: 15px;
+	}
+
+	.per div div {
+		width: 100%;
+		height: 12%;
+	}
+
+	.per div div h3 {
+		font-size: 20px;
+	}
+
+	.dos, .cuatro, .seis, .ocho {
+		float: initial;
+	}
+}
+

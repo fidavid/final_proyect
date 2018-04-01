@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	//background: rgb(24,188,156);
+}
+
+.contenedor {
+	width: 900px;
+	margin: auto;
+}
+
+/* Estilos del nav */
+
+nav {
+	padding: 10px;
+	border-bottom: 1px solid black;
+	background: crimson;
+}
+
+input  {
+	float: right;
+	width: 25%;
+	height: 30px;
+	padding-left: 10px;
+	margin: 10px;
+}
+
+#buscar {
+	float: right;
+    margin: 10px 0px;
+    width: 7%;
+    height: 33px;
+    background: green;
+    border: 1px solid black;
+    color: white;
+    border-radius: 6px;
+}
+
+#buscar:hover {
+	transition: .2s;
+	color: black;
+	background: yellow;
+}
+
+/* Estilos del cuerpo */
+
+.title {
+	text-align: center;
+	margin: 20px;
+	font-size: 23px;
+	font-family: arial;
+	cursor: pointer;
+}
+
+section {
+	display: inline-block;
+	padding-top: 20px;
+	margin-bottom: 40px;
+}
+
+.part1 {
+	width: 20%;
+	margin-left: 55px;
+	border: 1px solid black;
+	padding: 20px;
+	background: aliceblue;
+}
+
+.proyectos h2 {
+	margin-bottom: 16px;
+}
+
+.proyectos ul li {
+	color: black;
+	font-size: 17px;
+	list-style: unset;
+	margin-bottom: 5px;
+}
+
+.proyectos ul li:hover {
+	transition: .1s;
+	color: blue;
+	cursor: pointer;
+}
+
+.proyectos ul {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.part2 {
+	width: 69%;
+	vertical-align: top;
+}
+
+.trabajo {
+	color: black;
+	padding: 10px;
+    text-decoration: none;
+}
+
+.trabajo:hover {
+	transition: .2s;
+	color: white;
+}
+
+/* Estilos del pie de pagina */
+
+footer {
+	background: #61617d;
+}
+
+footer .footer div {
+	width: 28%;
+	display: inline-block;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.footer {
+	width: 100%;
+}
+
+.uno {
+	margin: 0px 30px 20px 0px;
+}
+
+.redes li {
+	display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 9px 15px;
+}
+
+.redes li a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style: none;
+}
+
+footer h3 {
+	font-size: 18px;
+}
+
+.copy {
+	background: rgb(35,49,64);
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+	color: white;
+}
+
+/* Estilos de descripcion */
+
+.port p {
+	margin: 20px;
+	letter-spacing: 2px;
+}
+
+.port button {
+	margin-left: 20px;
+	border: 1px solid black;
+	background: lightblue;
+	padding: 10px 0px 10px;
+}
+
+.port button:hover {
+	transition: .2s;
+	background: cadetblue;
+	color: white;
+	border: 1px solid white;
+}
+
+.port a {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.port a:hover {
+	transition: .2s;
+	color: white;
+}
+
+.subTitle {
+	margin: 20px;
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+
+h4 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+ol li {
+	margin-left: 6%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>SIN_TITULO</TITLE>
+	</HEAD>
+	<BODY onload="sin_titulo();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20160506-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function sin_titulo() {
+				var c, i, m, n, s;
+				n = 0;
+				i = 0;
+				c = 0;
+				s = 0;
+				m = 0;
+				document.write("Ingrese un numero:",'<BR/>');
+				for (i=1;i<=5;i++) {
+					n = Number(prompt());
+					if (n==0) {
+						m = m+1;
+					} else {
+						if (n%2==0) {
+							c = c+1;
+						} else {
+							s = s+1;
+						}
+					}
+				}
+				document.write("Ingreso ",c," numeros pares",'<BR/>');
+				document.write("Ingreso ",s," numeros impares",'<BR/>');
+				document.write("Ingreso ",m," veses ceros",'<BR/>');
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>

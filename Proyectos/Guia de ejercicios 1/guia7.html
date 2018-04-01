@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 7</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var cont = true;
+			var mayor = 0;
+
+			while (cont) {
+				n = prompt("Ingrese un numero");
+
+				if (parseInt(n) > mayor) {
+					mayor = n;
+				}
+
+				if (n == "final") {
+					cont = false;
+					alert("El mayor numero ingresado es "+mayor);
+				}
+			}
+		</script>
+	</body>
+</html>

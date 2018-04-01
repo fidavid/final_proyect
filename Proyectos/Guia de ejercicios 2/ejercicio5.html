@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 5</title>
+	</head>
+	<body>
+		<h1>Ejercicio 5</h1>
+		<script>
+			var array = [];
+			var suma = 0,
+				resta = 0,
+				multiplicacion = 1,
+				division = 1;
+
+			for (var i = 0; i < 10; i++) {
+				array.push(parseInt(prompt("Ingrese un numero:")));
+				suma = suma + array[i];
+				resta = resta - array[i];
+				multiplicacion = multiplicacion * array[i];
+				division = division / array[i];
+			}
+
+			alert("La suma de todo el array es: "+ suma)
+			alert("La resta de todo el array es: "+ resta)
+			alert("La multiplicacion de todo el array es: "+ multiplicacion)
+			alert("La division de todo el array es: "+ division)
+		</script>
+	</body>
+</html>

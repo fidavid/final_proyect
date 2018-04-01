@@ -1,0 +1,7 @@
+Fuente: 'Bubbler One', de Google Fonts:
+Íconos: Son de ionicons.com
+Colores:
+	Fuente: El color que viene por defecto.
+	Fondo: #FFD600.
+	Footer: #333333.
+	Copyright: #222222.

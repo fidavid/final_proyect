@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 2</title>
+	</head>
+	<body>
+		<h1>Ejercicio 2</h1>
+		<script>
+			/*var cadena = "Hola como estas";
+			alert("La cadena completa es: "+cadena);
+			var cadena_nueva = "";
+
+			for (var i = 0; i < cadena.length; i++) {
+				if (prompt("Desea cambiar el caracter "+cadena[i]+" de la posicion numero "+i+" por otra?") == "si") {
+					caracter = prompt("Por que caracter quiere cambiar:")
+					cadena_nueva = cadena_nueva + caracter;
+				} else {
+					cadena_nueva = cadena_nueva + cadena[i];
+				}
+			}
+
+			if (cadena_nueva == cadena) {
+				alert("La cadena no cambio.")
+			} else {
+				alert("La cadena nuevo es: "+cadena_nueva);
+			}*/
+
+			function reemplazar(cadena,caracter_a_reemplazar,caracter_nuevo){
+				var cadena_nueva = "";
+
+				for (var i = 0; i < cadena.length; i++) {
+					if (caracter_a_reemplazar != cadena[i]) {
+						cadena_nueva = cadena_nueva + cadena[i]
+					} else {
+						cadena_nueva = cadena_nueva + caracter_nuevo;
+					}
+				}
+
+				return cadena_nueva;
+			}
+			
+			console.log(reemplazar("Hola como estas","o","a"))
+		</script>
+	</body>
+</html>

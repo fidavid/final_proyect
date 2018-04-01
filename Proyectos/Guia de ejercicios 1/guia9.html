@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 9</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function fibonacci (n) {
+				var cont= 0;
+				var actual= 0;
+				var anterior= 1;
+
+				while ( cont < n ){
+				 	console.log(actual);
+				 	actual= actual+anterior;
+				 	anterior = actual-anterior;
+				 	cont++;
+				}
+			}
+			
+			fibonacci(5);
+			//fibonacci(parseInt(prompt("Ingrese un numero:")));
+		</script>
+	</body>
+</html>

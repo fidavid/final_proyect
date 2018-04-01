@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos de nav */
+
+.secion	{
+	background: #5353b1;
+	color: white;
+	width: 100%;
+	height: 100px;
+}
+
+nav h2 {
+	width: 20%;
+	height: 50px;
+	padding: 20px;
+	font-size: 50px;
+	display: inline-block;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px 0px;
+
+}
+
+nav ul li input {
+	width: 190px;
+	height: 23px;
+	margin: 5px 20px 5px 0px;
+	border: 1px solid black;
+}
+
+.enlace {
+	text-decoration: none;
+	color: #9cb4d8;
+	font-size: 12px;
+}
+
+.entrar {
+	width: 60px;
+	height: 30px;
+	font-size: 15px;
+	color: white;
+	background: #4267b2;
+	border: 1px solid #29487d;
+}
+
+/* Estilos de header */
+
+header {
+	width: 100%;
+	height: 500px;
+	padding: 20px;
+}
+
+.parteuno p {
+	font-size: 30px;
+}
+
+.parteuno {
+	width: 58%;
+	float: left;
+}
+
+.partedos {
+	width: 38%;
+	float: right;
+}
+
+/* Estilos de footer */

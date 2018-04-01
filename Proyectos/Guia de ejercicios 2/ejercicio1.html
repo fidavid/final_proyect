@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 1</title>
+	</head>
+	<body>
+		<h1>Ejercicio 1</h1>
+		<script>
+			function eliminar_espacios(variable){
+				var pos_inicial=0;
+				var pos_final=variable.length-1;
+				var variable_nueva='';
+
+				while(variable[pos_inicial] == ' '){
+					pos_inicial++;
+				}
+
+				while(variable[pos_final] == ' '){
+					pos_final--;
+				}
+
+				for(var i = pos_inicial; i <= pos_final; i++){
+					variable_nueva += variable[i];
+				}
+				return variable_nueva;
+			}
+
+			console.log(eliminar_espacios('      Hola a todos      '));
+		</script>
+	</body>
+</html>
